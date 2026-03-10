@@ -1,0 +1,4 @@
+resource "aws_ec2" "i1"{
+	ami="ubuntu"
+        it="t2.micro"
+}
